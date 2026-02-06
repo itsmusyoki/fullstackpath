@@ -1,6 +1,8 @@
 import Header from "./components/Header"
 import ProfileCard from "./components/ProfileCard"
 import Footer from "./components/Footer"
+import Counter from "./components/Counter"
+
 
 function App() {
 
@@ -11,6 +13,7 @@ function App() {
       name='Peter Musyoki'
       role= 'junior full-stack dev'
       />
+      <Counter />
       <Footer />
       
     </>
